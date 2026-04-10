@@ -18,37 +18,38 @@ while True:
     if calculation_type in options:
 
         if calculation_type == "1":
-            a = int(input("Please enter the first number for addition. "))
-            b = int(input("Please enter the second number for addition. "))
+            a = float(input("Please enter the first number for addition. "))
+            b = float(input("Please enter the second number for addition. "))
             print(add(a,b))
             kill_calculation = input("If you want to quit, please press 'q' ")
             if kill_calculation == "q":
-                print("Thank you for using IamOzansson's basic Python calculation. Have a great day!")
+                print("Thank you for using IamOzansson's basic Python calculator. Have a great day!")
                 break
 
         elif calculation_type == "2":
-            a = int(input("Please enter the first number for subtraction. "))
-            b = int(input("Please enter the second number for subtraction. "))
+            a = float(input("Please enter the first number for subtraction. "))
+            b = float(input("Please enter the second number for subtraction. "))
             print(subtraction(a,b))
             kill_calculation = input("If you want to quit, please press 'q' ")
             if kill_calculation == "q":
-                print("Thank you for using IamOzansson's basic Python calculation. Have a great day!")
+                print("Thank you for using IamOzansson's basic Python calculator. Have a great day!")
                 break
 
         elif calculation_type == "3":
-            a = int(input("Please enter the first number for multiplication. "))
-            b = int(input("Please enter the second number for multiplication. "))
+            a = float(input("Please enter the first number for multiplication. "))
+            b = float(input("Please enter the second number for multiplication. "))
             print(multiplication(a,b))
             kill_calculation = input("If you want to quit, please press 'q' ")
             if kill_calculation == "q":
-                print("Thank you for using IamOzansson's basic Python calculation. Have a great day!")
+                print("Thank you for using IamOzansson's basic Python calculator. Have a great day!")
                 break
             
         elif calculation_type == "4":
-            a = int(input("Please enter the first number for division. "))
-            b = int(input("Please enter the second number for division. "))
+            a = float(input("Please enter the first number for division. "))
+            b = float(input("Please enter the second number for division. "))
             print(division(a,b))
             kill_calculation = input("If you want to quit, please press 'q' ")
             if kill_calculation == "q":
-                print("Thank you for using IamOzansson's basic Python calculation. Have a great day!")
+                print("Thank you for using IamOzansson's basic Python calculator. Have a great day!")
                 break
+            
