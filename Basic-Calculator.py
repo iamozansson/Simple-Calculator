@@ -16,9 +16,8 @@ print("Welcome to IamOzansson's basic calculator program.")
 
 while True:
     calculation_type = input("Please choose the calculation type.(1-4): ")
-    
-    options = ("1","2","3","4")
-    if calculation_type in options:
+
+    if calculation_type in operations:
         a = float(input("Please enter your first number: "))
         b = float(input("Please enter your second number: "))
 
@@ -32,4 +31,3 @@ while True:
             break
     else:
         print("Your input is invalid. Please try again.")
-        
